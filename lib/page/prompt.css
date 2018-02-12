@@ -59,6 +59,9 @@ select#data {
 #buttons {
     text-align: right;
     padding: .5em 2.5em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #buttons > button {
