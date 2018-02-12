@@ -7,8 +7,7 @@ body {
 }
 
 #container {
-    align-items: center;
-    justify-content: top;
+    justify-content: center;
     display: flex;
     height: 100%;
 }
@@ -19,7 +18,7 @@ body {
 
 #label {
     max-width: 100%;
-    margin-bottom: .8em;
+    margin-bottom: .5em;
     padding: 0 .5em;
     white-space: nowrap;
     overflow: hidden;
@@ -46,7 +45,7 @@ select#data {
 
 #buttons {
     text-align: right;
-    padding: 0 .5em .5em 0;
+    padding: .5em 2.5em;
 }
 
 #buttons > button {
@@ -55,15 +54,17 @@ select#data {
     margin: 0 0 0 .5em;
     font-size: .8em;
     line-height: 1em;
-    padding: .6em 1em;
+    padding: .6em 1em
 }
 
 #ok {
     background-color: #3879D9;
     color: white;
+    cursor: pointer;
 }
 
 #cancel {
     background-color: #DDD;
     color: black;
+    cursor: pointer;    
 }
