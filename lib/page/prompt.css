@@ -1,9 +1,9 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5em;
-    color: #333;
-    background-color: #fff;
     overflow: hidden;
+    background: black;
+    color: white;
 }
 
 #container {
