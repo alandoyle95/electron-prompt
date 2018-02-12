@@ -36,6 +36,14 @@ body {
     margin: 0 0 1.2em;
 }
 
+input {
+    border: 1px solid black;
+}
+
+select {
+    border: 1px solid black;
+}
+
 select#data {
     height: 2em;
 }
