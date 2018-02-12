@@ -8,7 +8,7 @@ body {
 
 #container {
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     display: flex;
     height: 100%;
 }
@@ -46,7 +46,7 @@ select#data {
 
 #buttons {
     text-align: right;
-    padding: 0 .5em 0 0;
+    padding: 0 .5em .5em 0;
 }
 
 #buttons > button {
@@ -55,7 +55,7 @@ select#data {
     margin: 0 0 0 .5em;
     font-size: .8em;
     line-height: 1em;
-    padding: .6em 1em
+    padding: .6em 1em;
 }
 
 #ok {
