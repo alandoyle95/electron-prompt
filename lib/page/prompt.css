@@ -36,6 +36,10 @@ body {
     margin: 0 0 1.2em;
 }
 
+.chosen-container, .chosen-results > li {
+    text-align: left;
+}
+
 input {
     border: 1px solid black;
 }
@@ -63,7 +67,9 @@ select#data {
     margin: 0 0 0 .5em;
     font-size: .8em;
     line-height: 1em;
-    padding: .6em 1em
+    padding: .6em 1em;
+    position: relative;
+    bottom: 0;
 }
 
 #ok {
